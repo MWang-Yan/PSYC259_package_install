@@ -11,5 +11,3 @@ pkgs <- c("tidyverse","psych","ggforce","patchwork", "rstatix",
           "visdat", "janitor", "here", "plotly", "DataExplorer", "knitr")
 
 lapply(pkgs[!(pkgs %in% installed.packages())], install.packages)
-
-# right
